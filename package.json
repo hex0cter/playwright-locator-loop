@@ -1,0 +1,16 @@
+{
+  "name": "playwright-locator-loop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier -w tests/",
+    "test": "playwright test tests/locator-loop.spec.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.32.3",
+    "prettier": "^2.8.7"
+  }
+}
